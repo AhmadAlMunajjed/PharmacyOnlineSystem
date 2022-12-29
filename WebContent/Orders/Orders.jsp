@@ -4,7 +4,7 @@
 
   <head>
     <meta charset="windows-1256">
-    <title>Products list</title>
+    <title>Orders list</title>
 
     <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
       integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
@@ -29,10 +29,10 @@
               <a class="nav-link active" aria-current="page" href="#">Home</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="Products.jsp">Products</a>
+              <a class="nav-link" href="/PharmacyOnlineSystem/Products/Products.jsp">Products</a>
             </li>
             <li class="nav-item">
-              <a class="nav-link" href="/PharmacyOnlineSystem/Orders/Orders.jsp">Orders</a>
+              <a class="nav-link" href="Orders.jsp">Orders</a>
             </li>
             <li class="nav-item dropdown">
               <a class="nav-link dropdown-toggle" href="#" id="navbarDropdown" role="button" data-bs-toggle="dropdown"
@@ -62,8 +62,8 @@
     <div class="container-fluid">
       <div class="container">
         <div class="my-3 d-flex justify-content-between">
-          <h1>Products</h1>
-          <a href="ProductForm.jsp" class="btn btn-primary">Add New Product</a>
+          <h1>Orders</h1>
+          <a href="OrderForm.jsp" class="btn btn-primary">Add New Orders</a>
         </div>
 
 
